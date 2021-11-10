@@ -28,12 +28,13 @@ import javax.inject.Inject
 
 class RegistrationActivity : AppCompatActivity() {
 
-    @Inject
-    lateinit var registrationViewModel: RegistrationViewModel
+    @Inject lateinit var registrationViewModel: RegistrationViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        (application as MyApplication).appComponent.inject(this)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registration)
+
 
         supportFragmentManager.beginTransaction()
             .add(R.id.fragment_holder, EnterDetailsFragment())
