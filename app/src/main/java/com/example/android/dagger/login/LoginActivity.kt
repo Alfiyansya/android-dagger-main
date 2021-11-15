@@ -34,7 +34,7 @@ import javax.inject.Inject
 class LoginActivity : AppCompatActivity() {
 
     @Inject
-    private lateinit var loginViewModel: LoginViewModel
+    lateinit var loginViewModel: LoginViewModel
     private lateinit var errorTextView: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
