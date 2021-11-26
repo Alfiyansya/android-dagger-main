@@ -18,13 +18,7 @@ Implementing dependency injection provides you with the following advantages:
 * Reusability of code.
 * Ease of refactoring.
 * Ease of testing.
-
-
-# Pre-requisites
-* Experience with Kotlin syntax.
-* You understand Dependency Injection and know what the benefits
-of using Dagger in your Android app are.
-
+* 
 # Getting Started
 1. Install Android Studio, if you don't already have it.
 2. Download the sample.
