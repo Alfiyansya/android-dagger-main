@@ -18,7 +18,8 @@ Implementing dependency injection provides you with the following advantages:
 * Reusability of code.
 * Ease of refactoring.
 * Ease of testing.
-* 
+
+
 # Getting Started
 1. Install Android Studio, if you don't already have it.
 2. Download the sample.
